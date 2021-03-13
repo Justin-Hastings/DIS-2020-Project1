@@ -1,0 +1,97 @@
+h1#headerTitle {
+  padding-top: 30px;
+  text-align: center;
+}
+
+div.navBar {
+  background-color: blue;
+}
+
+div.navBar_Links {
+  margin: auto;
+  padding-left: 10%;
+}
+
+a.navBarLinks {
+  margin: auto;
+  font-size: 30px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* Navbar link states ----------
+a:hover {
+  background-color: maroon;
+  color: white;
+}
+*/
+div.footer {
+  background-color: blue;
+}
+
+a.footerLinks {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+p.copyrightText {
+  text-align: center;
+  color: white;
+}
+
+p.linkText {
+  text-align: center;
+}
+
+h2.index-Title {
+  text-align: center;
+}
+
+button.index-Buttons {
+  margin: auto;
+}
+
+div.borderRight {
+  border-right-style: solid;
+  border-right-color: black;
+  border-right-width: 2px;
+}
+
+div.borderLeft {
+  border-left-style: solid;
+  border-left-color: black;
+  border-left-width: 2px;
+}
+
+div.borderTop {
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 2px;
+}
+
+
+/* Breadcrumb navigation styles */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+/*  --------- */
